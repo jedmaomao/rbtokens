@@ -1,0 +1,24 @@
+{
+  "name": "rbtokens",
+  "version": "1.0.0",
+  "description": "RBTokens is a login plugin for partners.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedmaomao/rbtokens.git"
+  },
+  "keywords": [
+    "npm",
+    "npm-rbtokens",
+    "rbdigital"
+  ],
+  "author": "MAO MAO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedmaomao/rbtokens/issues"
+  },
+  "homepage": "https://github.com/jedmaomao/rbtokens#readme"
+}

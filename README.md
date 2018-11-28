@@ -1,4 +1,3 @@
-# rbtokens
 RBTokens is a login plugin for partners.
 
 * DEMO: [EDIT IN CODEPEN](https://codepen.io/dongfang_mao/pen/zMmWxY)
