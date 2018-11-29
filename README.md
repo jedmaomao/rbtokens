@@ -8,7 +8,7 @@ RBTokens is a login plugin for partners of [rbdigital](http://rbdigital.rbdigita
 <script src="rbtokens.min.js"></script>
 ```
 
-## Install from npm
+## Install from [npm](https://www.npmjs.com/package/rbtokens)
 ```
 npm install --save rbtokens
 ```
