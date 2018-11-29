@@ -1,4 +1,4 @@
-RBTokens is a login plugin for partners.
+RBTokens is a login plugin for partners of [rbdigital](http://rbdigital.rbdigital.com/)
 
 * DEMO: [EDIT IN CODEPEN](https://codepen.io/dongfang_mao/pen/zMmWxY)
 
@@ -44,13 +44,13 @@ npm install --save rbtokens
             color: "#fff",                  // optional
             fontWeight: "600",              // optional
             backgroundColor: "#00a19b",     // optional
-            click : function (event, username, password) {   // optional click event handler 
-                 RBTokens.loginAndRedirect({ "email": "jaswinder.singh0011@gmail.com"}).then(function(data){
-                console.log(data);
-            }).catch(function(err){
-                console.log(err);
-            });
-              },
+            click : function (event, username, password) {   // optional, click event handler 
+		    RBTokens.loginAndRedirect({ "email": "jaswinder.singh0011@gmail.com"}).then(function(data){
+			console.log(data);
+		    }).catch(function(err){
+			console.log(err);
+		    });
+            },
         },
       }
     });
