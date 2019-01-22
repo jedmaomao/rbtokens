@@ -1,6 +1,6 @@
 {
   "name": "rbtokens",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "RBTokens is a login plugin for partners.",
   "main": "index.js",
   "scripts": {

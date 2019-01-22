@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/rbtokens@1.0.5/dist/rbtokens.min.js"></script>
+
+<body>
+
+<p style="color: red;">Type any credentials and click Log In, then wait...</p>
+<div id="container"></div>
+
+</body>
+<script type="text/javascript">
+	RBTokens.config({
+		env: "qa",
+		libraryId: "3925",
+		token: "BF8DD41C-B286-4F60-9FF5-F4C5B3E57A11",
+		region: "NA",
+		template: {
+			id: "container",
+		    
+	    button: {
+	        click : function (event, username, password) {
+	           RBTokens.loginAndRedirect({ "email": "jaswinder.singh0011@gmail.com"}).then(function(data){
+				    
+				}).catch(function(err){
+				    
+				});
+	        },
+	  
+	    },
+	    width: "400px",
+		}
+
+	});
+</script>
+</html>
+
